@@ -9,7 +9,7 @@
 local util = require "luci.util"
 local boardinfo = util.ubus("system", "board")
 %>
-<a class="brand" href="/"><img src="/luci-static/argon/img/argon.svg" class="icon"><span
+<a class="brand" href="/"><img src="/luci-static/argon/img/argon.png" class="icon"><span
 		class="brand-text"><%=striptags( (boardinfo.hostname or "?") .. ( (node and node.title) and ' - ' .. translate(node.title) or '')) %></span></a>
 <form class="form-login" method="post" action="<%=pcdata(luci.http.getenv("REQUEST_URI"))%>">
 
