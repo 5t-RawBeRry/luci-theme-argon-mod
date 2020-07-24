@@ -59,6 +59,8 @@
     <script>
         // thanks for Jo-Philipp Wich <jow@openwrt.org>
         var luciLocation = <%= luci.http.write_json(luci.dispatcher.context.path) %>;
+		console.log("%c ","background: url(/luci-static/argon/img/1.gif) no-repeat center;padding-left:100px;padding-bottom: 64px;");
+		console.log('\n' + ' %c Nikko for' + '<%= ver.distversion %>' + ' ' + ' %c https://ryousuke.website/ ' + '\n', 'color: #fadfa3; background: #030307; padding:5px 0;', 'background: #fadfa3; padding:5px 0;');
     </script>
     
     <script src="<%=media%>/js/script.js?v=<%=math.random(1,100000)%>"></script>

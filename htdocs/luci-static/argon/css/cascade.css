@@ -190,9 +190,9 @@ li {
 }
 
 .login-page .login-container .login-form .brand .brand-text {
-    font-size: 1.25rem;
+    font-size: 2.5rem;
     font-weight: 700;
-    font-family: 'Zpix', "TypoGraphica";
+    font-family: "TypoGraphica";
 }
 
 .login-page .login-container .login-form .brand:hover {
@@ -305,7 +305,7 @@ li {
 
 .login-page .login-container .login-form .cbi-button-apply:hover,
 .login-page .login-container .login-form .cbi-button-apply :focus {
-    background-image: linear-gradient(-135deg, #f89c9c 0%, #f19483 100%);
+    background-image: linear-gradient(-135deg, #e29999 0%, #d36573 100%);
 }
 
 .login-page .login-container footer {
@@ -356,16 +356,19 @@ header .container .pull-right>* {
     cursor: pointer;
 }
 
-header::after {
+/* header::after {
     content: "";
     position: absolute;
     height: 2rem;
     width: 100%;
     background-color: #f19483 !important;
-}
+} */
 
 header.bg-primary {
-    background-color: #f19483 !important;
+    background: url(/luci-static/argon/img/bg1.jpg) center !important;
+    height: 175px;
+    z-index: -50;
+    position: absolute;
 }
 
 header .fill {
@@ -720,6 +723,7 @@ footer a {
 
 .main .main-right #maincontent {
     position: relative;
+    padding-top: 150px !important;
     z-index: 50;
 }
 
@@ -3354,11 +3358,11 @@ input[name="nslookup"] {
     }
     .login-page .login-container .login-form .form-login .cbi-button-apply:hover,
     .login-page .login-container .login-form .form-login .cbi-button-apply:focus {
-        background-image: linear-gradient(-135deg, #f89c9c 0%, #f19483 100%);
+        background-image: linear-gradient(-135deg, #e29999 0%, #d36573 100%);
     }
-    header::after {
+    /* header::after {
         background-color: #1e1e1e !important;
-    }
+    } */
     .main .main-left {
         background-color: #333333 !important;
         box-shadow: 0 0 0.5rem 0 rgba(0, 0, 0, 0.15);
@@ -3379,7 +3383,7 @@ input[name="nslookup"] {
         background: none !important;
     }
     .main .main-left .nav .slide .menu.active {
-        background-color: darkslateblue !important;
+        background-color: #f19483 !important;
         color: #cccccc !important;
     }
     .main .main-left .nav .slide .menu.active a::after {
@@ -3389,7 +3393,7 @@ input[name="nslookup"] {
         color: #cccccc !important;
     }
     .main .main-left .nav li a:hover {
-        background-color: darkslateblue !important;
+        background-color: #f19483 !important;
         color: #cccccc !important;
     }
     .main .main-left::-webkit-scrollbar-thumb {
@@ -3413,7 +3417,7 @@ input[name="nslookup"] {
     a:-webkit-any-link {
         color: -webkit-link;
         cursor: pointer;
-        color: darkslateblue;
+        color: #f19483;
     }
     input:-webkit-autofill {
         background-color: #3c3c3c !important;
@@ -3422,14 +3426,14 @@ input[name="nslookup"] {
     .cbi-button-apply,
     .cbi-button-edit {
         color: #fff !important;
-        background-color: darkslateblue !important;
-        border-color: darkslateblue !important;
+        background-color: #f19483 !important;
+        border-color: #f19483 !important;
     }
     .cbi-section em {
-        color: darkslateblue;
+        color: #f19483;
     }
     header.bg-primary {
-        background-color: #1e1e1e !important;
+        filter: brightness(0.5);
     }
     .cbi-map-descr {
         color: #ccc;
@@ -3540,7 +3544,7 @@ input[name="nslookup"] {
     }
     .tabs>li[class~="active"],
     .tabs>li:hover {
-        border-bottom: 0.18751rem solid darkslateblue;
+        border-bottom: 0.18751rem solid #f19483;
         color: #ccc;
         background-color: #181819;
     }
@@ -3580,7 +3584,7 @@ input[name="nslookup"] {
     }
     select:not([multiple="multiple"]):focus,
     input:focus {
-        border-color: darkslateblue;
+        border-color: #f19483;
         outline: 0;
     }
     #cbi-dropbear h2,
@@ -3658,7 +3662,7 @@ input[name="nslookup"] {
         box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.35);
     }
     .node-services-vssr .cbi-section-table-row.fast {
-        background: darkslateblue !important;
+        background: #f19483 !important;
         color: #fff;
     }
     .node-services-vssr .ssr-button {
@@ -3672,7 +3676,7 @@ input[name="nslookup"] {
         background-color: darkolivegreen !important;
     }
     .notice {
-        background-color: darkslateblue !important;
+        background-color: #f19483 !important;
     }
     .cbi-input-find,
     .cbi-input-save,
@@ -3696,7 +3700,7 @@ input[name="nslookup"] {
     .cbi-button-apply.important,
     .cbi-button-reload.important,
     .cbi-button-action.important {
-        border: 1px darkslateblue solid !important;
+        border: 1px #f19483 solid !important;
     }
     fieldset[id^="cbi-apply-"] {
         background-color: #333333;

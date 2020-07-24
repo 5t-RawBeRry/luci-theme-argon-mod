@@ -10,7 +10,7 @@ local util = require "luci.util"
 local boardinfo = util.ubus("system", "board")
 %>
 <a class="brand" href="/"><img src="/luci-static/argon/img/argon.png" class="icon"><span
-		class="brand-text"><%=striptags( (boardinfo.hostname or "?") .. ( (node and node.title) and ' - ' .. translate(node.title) or '')) %></span></a>
+		class="brand-text"><%=striptags( (boardinfo.hostname or "?") .. ( (node and node.title) and ' - ' .. translate(node.title) or '')) %> ™</span></a>
 <form class="form-login" method="post" action="<%=pcdata(luci.http.getenv("REQUEST_URI"))%>">
 
 	<%- if fuser then %>
@@ -38,15 +38,15 @@ local boardinfo = util.ubus("system", "board")
 
 <script type="text/javascript">//<![CDATA[
 	var input = document.getElementsByName('luci_password')[0];
-	if (input)
-		input.focus();
+	///if (input)
+		//input.focus();
 
-	try {
-		$(".login-page").css("background-image", "url(http://www.dmoe.cc/random.php)");
-	} catch{
-		console.log("API or network not work");
+	//try {
+		//$(".login-page").css("background-image", "url(http://www.dmoe.cc/random.php)");
+	//} catch{
+		//console.log("API or network not work");
 		$(".login-page").css("background-image", "url(/luci-static/argon/img/bg1.jpg)");
-	}
+	//}
 
 //]]></script>
 
