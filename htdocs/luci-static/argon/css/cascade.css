@@ -356,6 +356,9 @@ header .container .pull-right>* {
     cursor: pointer;
 }
 
+.container {
+    opacity: 0.95;
+}
 
 /* header::after {
     content: "";
@@ -367,8 +370,7 @@ header .container .pull-right>* {
 
 header.bg-primary {
     background: url(/luci-static/argon/img/hd1.jpg) center !important;
-    height: 175px;
-    z-index: -50;
+    height: 250px;
     position: absolute;
 }
 
