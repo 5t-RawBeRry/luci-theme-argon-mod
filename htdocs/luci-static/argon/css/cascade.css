@@ -366,7 +366,7 @@ header .container .pull-right>* {
 } */
 
 header.bg-primary {
-    background: url(/luci-static/argon/img/bg1.jpg) center !important;
+    background: url(/luci-static/argon/img/hd1.jpg) center !important;
     height: 175px;
     z-index: -50;
     position: absolute;
@@ -620,7 +620,7 @@ footer a {
 
 .main .main-left .nav li.slide .menu[data-title=Status]:before {
     content: "\e906";
-    color: #d47c6c;
+    color: #e26a54;
 }
 
 .main .main-left .nav li.slide .menu[data-title=System]:before {
@@ -2217,7 +2217,7 @@ td>table>tbody>tr>td {
     cursor: pointer;
     border-bottom: 0.18751rem solid #d47c6c;
     color: #d47c6c;
-    background-color: #dce1fe;
+    background-color: #fedcdc;
     margin-bottom: 0;
 }
 
@@ -2228,7 +2228,7 @@ td>table>tbody>tr>td {
 .cbi-tabmenu li[class~="cbi-tab"] {
     border-bottom: 0.18751rem solid #d47c6c;
     color: #d47c6c;
-    background-color: #dce1fe;
+    background-color: #fedcdc;
     margin-bottom: 0;
 }
 
@@ -3434,7 +3434,10 @@ input[name="nslookup"] {
         color: #d47c6c;
     }
     header.bg-primary {
-        filter: brightness(0.5);
+        height: 0px !important;
+    }
+    .main .main-right #maincontent {
+        padding-top: 50px !important;
     }
     .cbi-map-descr {
         color: #ccc;
