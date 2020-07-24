@@ -201,8 +201,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>
-		<%=striptags( (boardinfo.hostname or "?") .. ( (node and node.title) and ' - ' .. translate(node.title) or '')) %>
-		- LuCI</title>
+		Login to Nikko!</title>
 	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
 	<meta name="format-detection" content="telephone=no, email=no" />
 	<meta name="apple-mobile-web-app-capable" content="yes">
@@ -212,10 +211,10 @@
 	<meta name="x5-page-mode" content="app">
 	<meta name="browsermode" content="application">
 	<meta name="msapplication-tap-highlight" content="no">
-	<meta name="msapplication-TileColor" content="#5e72e4">
+	<meta name="msapplication-TileColor" content="#f19483">
 
-	<meta name="application-name" content="<%=striptags( (boardinfo.hostname or "?") ) %> - LuCI">
-	<meta name="apple-mobile-web-app-title" content="<%=striptags( (boardinfo.hostname or "?") ) %> - LuCI">
+	<meta name="application-name" content="<%=striptags( (boardinfo.hostname or "?") ) %>">
+	<meta name="apple-mobile-web-app-title" content="<%=striptags( (boardinfo.hostname or "?") ) %>">
 
 	<link rel="apple-touch-icon" sizes="60x60" href="<%=media%>/icon/apple-icon-60x60.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="<%=media%>/icon/apple-icon-72x72.png">
@@ -225,9 +224,9 @@
 	<link rel="icon" type="image/png" sizes="96x96" href="<%=media%>/icon/favicon-96x96.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="<%=media%>/icon/favicon-16x16.png">
 	<link rel="manifest" href="<%=media%>/icon/manifest.json">
-	<meta name="msapplication-TileColor" content="#5e72e4">
+	<meta name="msapplication-TileColor" content="#f19483">
 	<meta name="msapplication-TileImage" content="<%=media%>/icon/ms-icon-144x144.png">
-	<meta name="theme-color" content="#5e72e4">
+	<meta name="theme-color" content="#f19483">
 	<link rel="stylesheet" href="<%=media%>/css/cascade.css?v=<%=math.random(1,100000)%>">
 	<link rel="shortcut icon" href="<%=media%>/favicon.ico">
 	<% if node and node.css then %>
