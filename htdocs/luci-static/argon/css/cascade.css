@@ -103,7 +103,7 @@ body {
 }
 
 .hd-1 {
-  height: 170%;
+  height: 190%;
   width: 100%;
   position: absolute;
   background: url(/luci-static/argon/img/hd1.jpg) no-repeat center;
@@ -337,7 +337,7 @@ header .container .pull-right > * {
 } */
 header.bg-primary {
   background-color: #252323 !important;
-  height: 175px;
+  height: 25vh;
 }
 header .fill {
   padding: 0.8rem 0;
@@ -767,8 +767,8 @@ form.inline + form.inline,
 .cbi-input-reload,
 .cbi-button-reload {
   color: #fff !important;
-  background-color: #337ab7 !important;
-  border-color: #2e6da4 !important;
+  background-color: #25282b !important;
+  border-color: #25282b!important;
 }
 .cbi-value-field .cbi-input-apply,
 .cbi-button-apply,
@@ -1836,7 +1836,7 @@ td > table > tbody > tr > td {
   cursor: pointer;
   border-bottom: 0.18751rem solid #252323;
   color: #252323;
-  background-color: #dce1fe;
+  background-color: #555555;
   margin-bottom: 0;
   border-radius: 0;
 }
@@ -1893,7 +1893,7 @@ td > table > tbody > tr > td {
   cursor: pointer;
   border-bottom: 0.18751rem solid #252323;
   color: #252323;
-  background-color: #dce1fe;
+  background-color: #555555;
   margin-bottom: 0;
 }
 .cbi-tabmenu li:hover a {
@@ -1902,7 +1902,7 @@ td > table > tbody > tr > td {
 .cbi-tabmenu li[class~="cbi-tab"] {
   border-bottom: 0.18751rem solid #252323;
   color: #252323;
-  background-color: #dce1fe;
+  background-color: #555555;
   margin-bottom: 0;
 }
 .cbi-tabmenu li[class~="cbi-tab"] a {
