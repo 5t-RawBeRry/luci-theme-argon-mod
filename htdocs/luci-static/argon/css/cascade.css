@@ -103,11 +103,11 @@ body {
 }
 
 .hd-1 {
-  height: 150%;
+  height: 170%;
   width: 100%;
   position: absolute;
   background: url(/luci-static/argon/img/hd1.jpg) no-repeat center;
-  background-size: 100%;
+  background-size: 140%;
 }
 
 a:link,
@@ -337,6 +337,7 @@ header .container .pull-right > * {
 } */
 header.bg-primary {
   background-color: #252323 !important;
+  height: 175px;
 }
 header .fill {
   padding: 0.8rem 0;
