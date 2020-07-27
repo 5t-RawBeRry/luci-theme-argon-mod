@@ -2858,8 +2858,15 @@ input[name="nslookup"] {
     color: #bebebe;
   }
   .block {
-    background-color: #333;
+    background-color: #333 !important;
   }
+  #status_tcp_node,
+  #status_udp_node,
+  #status_dns,
+  #status_haproxy,
+  #status_kcptun,
+  #status_baidu,
+  #status_google,
   .block h4 {
     color: #bebebe !important;
   }
