@@ -560,7 +560,7 @@ footer a {
 }
 .main .main-left .nav li.slide .menu[data-title=Status]:before {
   content: "\e906";
-  color: #252323;
+  color: #56a6f2;
 }
 .main .main-left .nav li.slide .menu[data-title=System]:before {
   content: "\e90a";
