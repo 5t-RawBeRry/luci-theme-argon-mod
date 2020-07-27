@@ -116,7 +116,7 @@ body {
   width: 100%;
   position: absolute;
   background: url(/luci-static/argon/img/hd1.jpg) no-repeat center;
-  background-size: 130%;
+  background-size: 155%;
 }
 
 a:link,
@@ -346,7 +346,7 @@ header .container .pull-right > * {
 } */
 header.bg-primary {
   background-color: #252323 !important;
-  height: 25vh;
+  height: 15vh;
 }
 header .fill {
   padding: 0.8rem 0;
@@ -2851,8 +2851,8 @@ input[name="nslookup"] {
     background: #1e1e1e;
     color: #cccccc;
   }
-  .hd {  
-    filter: brightness(0.7);
+  .hd-1 {  
+    filter: brightness(0.85);
   }
   .login-page .login-container .login-form {
     background-color: #1e1e1e;
@@ -2959,7 +2959,6 @@ input[name="nslookup"] {
   }
   header.bg-primary {
     background-color: #1e1e1e !important;
-    height: 200px;
   }
   .cbi-map-descr {
     color: #ccc;
