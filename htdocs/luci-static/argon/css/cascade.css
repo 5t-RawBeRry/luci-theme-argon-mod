@@ -2854,6 +2854,18 @@ input[name="nslookup"] {
   .hd-1 {  
     filter: brightness(0.85);
   }
+  .main .main-left .nav li.slide .menu[data-title=Control]:before {
+    color: #bebebe;
+  }
+  .block {
+    background-color: #333;
+  }
+  .block h4 {
+    color: #bebebe !important;
+  }
+  .block img {
+    mix-blend-mode: multiply;
+  }
   .login-page .login-container .login-form {
     background-color: #1e1e1e;
   }
