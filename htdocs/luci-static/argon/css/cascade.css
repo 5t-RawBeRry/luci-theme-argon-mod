@@ -570,6 +570,10 @@ footer a {
   content: "\e909";
   color: #11cdef;
 }
+.main .main-left .nav li.slide .menu[data-title=Control]:before {
+  content: "\e90d";
+  color: #ffffff;
+}
 .main .main-left .nav li.slide .menu[data-title=NAS]:before {
   content: "\e90c";
   color: #f3a4b5;
