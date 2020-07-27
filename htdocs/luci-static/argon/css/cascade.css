@@ -374,11 +374,11 @@ header .fill .container .brand {
 footer {
   text-align: right;
   padding: 1rem;
-  color: #aaa;
+  color: #000;
   font-size: 0.8rem;
 }
 footer a {
-  color: #aaa;
+  color: #000;
   text-decoration: none;
 }
 /***********************
@@ -2857,6 +2857,12 @@ input[name="nslookup"] {
   .main .main-left .nav li.slide .menu[data-title=Control]:before {
     color: #bebebe;
   }
+  footer {
+    color: #bebebe;
+  }
+  footer a {
+    color: #bebebe;
+  }
   .block {
     background-color: #333 !important;
   }
@@ -2899,6 +2905,7 @@ input[name="nslookup"] {
   }
   .login-page .login-container .login-form .form-login .cbi-button-apply {
     background-image: linear-gradient(-135deg,#191718 0%, #4d4d4d 100%);
+    border-color: #191718 !important;
   }
   .login-page .login-container .login-form .form-login .cbi-button-apply:hover,
   .login-page .login-container .login-form .form-login .cbi-button-apply:focus {
@@ -2961,7 +2968,7 @@ input[name="nslookup"] {
   a:-webkit-any-link {
     color: -webkit-link;
     cursor: pointer;
-    color: #4d4d4d;
+    color: #bebebe;
   }
   input:-webkit-autofill {
     background-color: #3c3c3c !important;
